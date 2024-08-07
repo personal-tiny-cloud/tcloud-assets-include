@@ -1,0 +1,18 @@
+[package]
+name = "tcloud-assets-include"
+authors = [ "hex0x0000 <hex0x0000@protonmail.com>" ]
+description = "Minifies and includes assets into the binary during the building process for Tiny Cloud."
+license = "GPL-3.0"
+version = "0.0.1"
+repository = "https://github.com/personal-tiny-cloud/tcloud-assets-include"
+edition = "2021"
+
+[dependencies]
+oxc_allocator = "0.23"
+oxc_codegen = "0.23"
+oxc_minifier = "0.23"
+oxc_parser = "0.23"
+oxc_span = "0.23"
+oxc_mangler = "0.23"
+lightningcss = "1.0.0-alpha.58"
+minify-html = "0.15"
