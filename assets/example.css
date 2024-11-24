@@ -1,0 +1,104 @@
+/**
+ * This file is part of the Tiny Cloud project.
+ * You can find the source code of every repository here:
+ *			https://github.com/personal-tiny-cloud
+ * 
+ * Copyright (C) 2024  hex0x0000
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU Affero General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU Affero General Public License for more details.
+ *
+ * You should have received a copy of the GNU Affero General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ * 
+ * Email: hex0x0000@protonmail.com
+ * */
+
+body {
+	margin: auto;
+	text-align: center;
+	font-family: Sans-serif;
+}
+
+footer {
+	margin-top: 10%;
+	color: grey;
+	font-size: 100%;
+}
+
+#title {
+	font-weight: bold;
+	font-size: 400%;
+	text-shadow: 2px 2px 10px var(--main-color);
+}
+
+#version {
+	font-size: 190%;
+}
+
+#description {
+	font-size: 150%;
+	color: grey;
+}
+
+#login {
+	margin-top: 5%;
+	margin-bottom: 1%;
+	font-size: 150%;
+	border-width: 2px;
+	border-style: solid;
+	border-color: var(--main-color);
+	border-radius: 10px;
+	display: inline-block;
+}
+
+#user, #password, #totp {
+	width: 80%;
+}
+
+#btn {
+	width: 30%;
+	color: black;
+	font-weight: bold;
+	background-color: var(--main-color);
+	border-color: var(--main-color);
+	transition-duration: 0.3s;
+}
+
+#btn:hover {
+	border-color: white;
+	transition-duration: 0.3s;
+}
+
+#btn:active {
+	background-color: black;
+	color: var(--main-color);
+	border-color: var(--main-color);
+	transition-duration: 0.3s;
+}
+
+#btn:disabled {
+	background-color: lightgrey;
+	border-color: lightgrey;
+	color: grey;
+	pointer-events: none;
+	transition-duration: 0.3s;
+}
+
+#user, #password, #totp, #btn {
+	padding-top: 0.9%;
+	padding-right: 1%;
+	padding-bottom: 0.9%;
+	padding-left: 1%;
+	border-radius: 10px;
+	margin-bottom: 10px;
+	font-size: 100%;
+}
+

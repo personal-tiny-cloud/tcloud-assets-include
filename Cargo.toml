@@ -8,11 +8,14 @@ repository = "https://github.com/personal-tiny-cloud/tcloud-assets-include"
 edition = "2021"
 
 [dependencies]
-oxc_allocator = "0.23"
-oxc_codegen = "0.23"
-oxc_minifier = "0.23"
-oxc_parser = "0.23"
-oxc_span = "0.23"
-oxc_mangler = "0.23"
+oxc_allocator = "0.37"
+oxc_codegen = "0.37"
+oxc_minifier = "0.37"
+oxc_parser = "0.37"
+oxc_span = "0.37"
+oxc_mangler = "0.37"
 lightningcss = "1.0.0-alpha.58"
 minify-html = "0.15"
+
+[dev-dependencies]
+tempfile = "3.14"
